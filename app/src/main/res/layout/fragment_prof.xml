@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/halfwhite"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="2dp"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/prof1"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="5dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:background="@drawable/round"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:elevation="16dp"
+                        android:text="Region"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/Reg1"
+                        android:background="@android:color/transparent"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="Region"
+                        android:inputType="text"
+                        android:paddingLeft="20dp"
+                        android:textSize="15dp">
+
+                    </EditText>
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/rect"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="7dp"
+                        android:text="User Name"
+                        android:textSize="15dp"
+                        android:textColor="@color/red"
+                        android:id="@+id/username"
+                        >
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/unm"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:padding="5dp"
+                        android:layout_marginStart="15dp"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@drawable/rect"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:text="First Name"
+                        android:textSize="15dp"
+                        android:id="@+id/first"
+                        >
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/Fn"
+                        android:background="@android:color/transparent"
+                        android:layout_width="313dp"
+                        android:layout_height="40dp"
+                        android:hint="First Name"
+                        android:inputType="textMultiLine"
+                        android:paddingLeft="20dp"
+                        android:textSize="15dp">
+
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:background="@drawable/rect"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:text="Last Name"
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/Last"
+                        android:layout_width="313dp"
+                        android:background="@android:color/transparent"
+                        android:layout_height="40dp"
+                        android:hint="Last Name"
+                        android:inputType="text"
+                        android:paddingLeft="20dp"
+                        android:textSize="15dp">
+
+                    </EditText>
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/rect"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:text="Address"
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/Adrs"
+                        android:layout_width="313dp"
+                        android:layout_height="40dp"
+                        android:background="@android:color/transparent"
+                        android:hint="Address"
+                        android:inputType="text"
+                        android:paddingLeft="20dp"
+                        android:textSize="15dp">
+
+                    </EditText>
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/rect"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:text="City"
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/City"
+                        android:layout_width="313dp"
+                        android:layout_height="40dp"
+                        android:hint="City"
+                        android:inputType="text"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="20dp"
+                        android:textSize="15dp">
+
+                    </EditText>
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/rect"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:text="State/Territory"
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/State"
+                        android:layout_width="313dp"
+                        android:background="@android:color/transparent"
+                        android:layout_height="40dp"
+                        android:hint="State/territory"
+                        android:inputType="text"
+                        android:paddingLeft="20dp"
+                        android:textSize="15dp">
+
+                    </EditText>
+
+                </TableRow>
+                <TableRow
+                    android:background="@drawable/bottomround"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:text="Zip/Postal Code"
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/Zip"
+                        android:background="@android:color/transparent"
+                        android:layout_width="313dp"
+                        android:layout_height="40dp"
+                        android:hint="Zip/Postal code"
+                        android:inputType="textPostalAddress"
+                        android:paddingLeft="20dp"
+                        android:textSize="15dp">
+
+                    </EditText>
+
+                </TableRow>
+            </TableLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/chng_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prof1"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="5dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow
+                    android:background="@drawable/tp_rnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:text="New Email"
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/Em1"
+                        android:layout_width="310dp"
+                        android:background="@android:color/transparent"
+                        android:layout_height="40dp"
+                        android:hint="New Email"
+                        android:inputType="text"
+                        android:paddingLeft="10dp"
+                        android:textSize="15dp">
+
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/chng"
+                    android:background="@drawable/bottomround"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Change Password"
+                        android:textSize="15dp"
+                        >
+
+                    </TextView>
+                </TableRow>
+            </TableLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rel1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true"
+            app:cardPreventCornerOverlap="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chng_pass"
+            >
+            <TextView
+                android:background="@drawable/rectag"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:text="Sign out"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true"
+            app:cardPreventCornerOverlap="true"
+            android:layout_below="@id/rel1">
+
+            <Button
+                android:textStyle="bold"
+                android:background="@drawable/rectage2"
+                android:id="@+id/savedata"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/rel1"
+                android:text="Save"
+                >
+            </Button>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+

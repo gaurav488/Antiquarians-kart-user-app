@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".front_prof">
+    <ImageView
+
+        android:layout_above="@+id/sgup"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/person"
+        />
+
+<Button
+    android:layout_width="116dp"
+    android:id="@+id/sgup"
+    android:layout_height="30dp"
+    android:layout_centerInParent="true"
+    android:text="SIGN UP"
+    android:background="@drawable/rectage2"
+    />
+
+</RelativeLayout>
+

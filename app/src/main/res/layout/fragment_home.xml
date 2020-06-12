@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/viewfliper2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                />
+            <TextView
+                android:id="@+id/recom_text"
+                android:layout_above="@+id/recyclev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="15dp"
+                android:text="Recommended Lots">
+            </TextView>
+            <androidx.cardview.widget.CardView
+            android:id="@+id/viewfliper2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewerpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:autoStart="true"
+                    android:flipInterval="2000"
+                    android:scrollIndicators="bottom"/>
+                <LinearLayout
+                android:id="@+id/dots_layout"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="160dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Antiquarians Kart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="wines_spirits"><![CDATA[Wines & spirits]]></string>
+    <string name="toys_dolls"><![CDATA[Toys & Dolls]]></string>
+    <string name="wines_spirit"><![CDATA[Wines & Spirit]]></string>
+    <string name="terms_condition"><![CDATA[Terms & Condition]]></string>
+    <string name="copyright_usage"><![CDATA[Copyright & Usage]]></string>
+
+</resources>

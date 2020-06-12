@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ak2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_IXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="AQ&apos;s Kart"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:screenOrientation="locked"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:label">
+        <activity android:name=".ordered_products"></activity>
+        <activity android:name=".edit_my_product_info" />
+        <activity android:name=".my_products" />
+        <activity android:name=".my_saved_items" />
+        <activity
+            android:name=".bidders_list_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".biding_activity" />
+        <activity
+            android:name=".auction_item_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".confirm_order_activity" />
+        <activity android:name=".cart_activity" />
+        <activity android:name=".search_activity" />
+        <activity
+            android:name=".new_product_info"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".categories_activity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".sell_item"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".change_password"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".AuctionTab"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".VIewpage"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".frontpg"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Splashscreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

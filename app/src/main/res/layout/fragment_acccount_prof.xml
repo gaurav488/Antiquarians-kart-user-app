@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/halfwhite"
+    android:orientation="vertical"
+    android:layout_marginTop="?actionBarSize"
+    tools:context=".Acccount_prof">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:id="@+id/acount_recycler"
+        android:layoutAnimation="@anim/layout_animation_fall_down"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

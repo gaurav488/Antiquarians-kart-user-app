@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home2"
+        android:title="Home"
+        android:icon="@drawable/ic_action_home"
+        />
+    <item
+        android:id="@+id/Search2"
+        android:title="Categories"
+        android:icon="@drawable/categories"
+        />
+    <item
+        android:id="@+id/Auction2"
+        android:title="Auction"
+        android:icon="@drawable/ic_action_auction"
+        />
+    <item
+        android:id="@+id/Buynow"
+        android:title="Buy now"
+        android:icon="@drawable/ic_action_buynow2"
+        />
+    <item
+        android:id="@+id/frontprof2"
+        android:title="Account"
+        android:icon="@drawable/ic_action_profile"
+        />
+
+</menu>
